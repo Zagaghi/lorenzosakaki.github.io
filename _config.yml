@@ -2,3 +2,19 @@ title: "Lorenzo Sakaki"
 description: "Portfolio"
 url: "https://lorenzosakaki.github.io"
 remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+# 
+minimal_mistakes_skin: default
+breadcrumbs: true
+
+#
+main:
+  - title: "Home"
+  url: /
+  - title: "Projects"
+  url: /projects/
+  - title: "CV (PDF)"
+  url: /assets/cv/CV_Lorenzo.pdf
